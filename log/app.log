@@ -1,0 +1,61 @@
+# Logfile created on 2024-07-02 20:50:07 +0300 by logger.rb/v1.6.0
+I, [2024-07-02T20:51:43.038501 #12711]  INFO -- : 
+Request: GET http://localhost:9292/tests/
+Handler: TestsController#index
+Parameters: 
+Response: 201 [text/plain] 
+
+I, [2024-07-02T21:04:11.812973 #12711]  INFO -- : 
+Request: GET http://localhost:9292/tes/
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2024-07-02T21:05:18.085444 #12711]  INFO -- : 
+Request: GET http://localhost:9292/tes/
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2024-07-02T21:05:29.861530 #14486]  INFO -- : 
+Request: GET http://localhost:9292/tes/
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2024-07-02T21:13:52.326760 #15552]  INFO -- : 
+Request: GET http://localhost:9292/tes/
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2024-07-02T21:14:14.788134 #15659]  INFO -- : 
+Request: GET http://localhost:9292/tes/
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2024-07-02T21:20:53.597438 #16522]  INFO -- : 
+Request: GET http://localhost:9292/tes/
+Handler: NilClass#
+Parameters: 
+Response: 404 [text/plain] 
+
+I, [2024-07-02T21:33:11.277157 #18361]  INFO -- : 
+Request: GET http://localhost:9292/tests/101
+Handler: TestsController#index
+Parameters: 
+Response: 201 [text/plain] 
+
+I, [2024-07-02T21:33:23.202216 #18361]  INFO -- : 
+Request: GET http://localhost:9292/tests/100
+Handler: TestsController#index
+Parameters: 
+Response: 201 [text/plain] 
+
+I, [2024-07-02T21:34:29.109643 #18604]  INFO -- : 
+Request: GET http://localhost:9292/tests/100
+Handler: TestsController#index
+Parameters: 
+Response: 201 [text/plain] 
+
